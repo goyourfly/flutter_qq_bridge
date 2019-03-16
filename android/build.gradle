@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 16
@@ -38,5 +38,4 @@ dependencies {
 //    api files('libs/flutter.jar')
     
     implementation files('libs/open_sdk_r6008_lite.jar')
-    api 'com.android.support:support-v4:27.1.1'
 }
